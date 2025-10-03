@@ -1,0 +1,165 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+line-height: 1.6;
+background-color: #f4f4f4;
+color: #333;
+}
+
+header {
+background: #222;
+color: white;
+padding: 1rem;
+text-align: center;
+}
+
+header h1 {
+margin: 0.5rem 0;
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+display: flex;
+justify-content: center;
+gap: 1rem;
+margin: 0;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav a:hover {
+text-decoration: underline;
+}
+
+.banner {
+background: url('img/banner.jpg') center/cover no-repeat;
+color: white;
+text-align: center;
+padding: 5rem 2rem;
+position: relative;
+}
+
+.banner::after {
+content: "";
+position: absolute;
+top: 0; left: 0;
+width: 100%; height: 100%;
+background: rgba(0,0,0,0.5);
+}
+
+.banner h2, .banner p {
+position: relative;
+z-index: 1;
+}
+
+.banner h2 {
+font-size: 2.5rem;
+margin-bottom: 0.5rem;
+}
+
+.banner p {
+font-size: 1.2rem;
+}
+
+main {
+padding: 2rem;
+}
+
+main h2 {
+margin-bottom: 1rem;
+border-left: 4px solid #222;
+padding-left: 0.5rem;
+}
+
+/* Cards */
+.cards {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 1.5rem;
+margin-top: 1.5rem;
+}
+
+.card {
+background: white;
+border: 1px solid #ddd;
+border-radius: 8px;
+padding: 1rem;
+text-align: center;
+box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+transition: transform 0.2s;
+}
+
+.card img {
+max-width: 100%;
+border-radius: 6px;
+margin-bottom: 0.5rem;
+}
+
+.card:hover {
+transform: scale(1.05);
+}
+
+.detalhes {
+background: white;
+border-radius: 8px;
+padding: 2rem;
+box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+max-width: 800px;
+margin: 2rem auto;
+}
+
+.detalhes img {
+max-width: 100%;
+border-radius: 6px;
+margin-bottom: 1rem;
+}
+
+.detalhes h2 {
+margin-top: 0;
+color: #222;
+}
+
+.detalhes p {
+margin-bottom: 1rem;
+text-align: justify;
+}
+
+.btn-voltar {
+display: block;
+text-align: center;
+max-width: 200px;
+margin: 2rem auto;
+padding: 0.7rem 1rem;
+background: #222;
+color: white;
+text-decoration: none;
+border-radius: 4px;
+transition: background 0.2s;
+}
+
+.btn-voltar:hover {
+background: #444;
+}
+
+footer {
+background: #222;
+color: white;
+text-align: center;
+padding: 1rem;
+margin-top: 2rem;
+}
+
+
+@media (max-width: 600px) {
+.banner h2 {
+font-size: 1.8rem;
+}
+.banner p {
+font-size: 1rem;
+}
+}

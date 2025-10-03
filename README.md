@@ -12,10 +12,10 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: William Augusto Lobo Freire
+- Matricula: 887712
+- Proposta de projeto escolhida: 1. Pessoas e Produções
+- Breve descrição sobre seu projeto: O projeto consiste na criação de uma home-page dedicada ao mangaká Eiichiro Oda, criador de One Piece e contar sobre a sua obra.
 
 ## Print da Home-Page
 
@@ -29,15 +29,32 @@ Leia o enunciado completo no Canvas.
 
 ```javascript
 const dados = [
-  {
-    "id": 1,
-    "titulo": "Prefeitura Lança Plano de Mobilidade Urbana",
-    "descricao": "Novo plano do transporte público.",
-    "conteudo": "A Prefeitura apresentou nesta segunda-feira um novo plano de mobilidade urbana.",
-    "categoria": "Cidades",
-    "autor": "Joana Ribeiro",
-    "data": "2025-03-30",
-    "imagem": "img/mobilidade.jpg"
-  }
-]
-```
+{
+id: 1,
+titulo: "One Piece",
+descricao: "Mangá iniciado em 1997 e ainda em publicação, com mais de 100 volumes lançados.",
+conteudo: "One Piece acompanha as aventuras de Monkey D. Luffy e sua tripulação em busca do lendário tesouro One Piece. É uma das obras mais vendidas e influentes do mundo.",
+autor: "Eiichiro Oda",
+data: "1997",
+imagem: "img/onepiece.jpg"
+},
+{
+id: 2,
+titulo: "Wanted!",
+descricao: "Coletânea de histórias curtas publicadas antes do sucesso de One Piece.",
+conteudo: "Wanted! é uma coletânea de mangás curtos de Oda, lançada antes de One Piece, que mostrava seu potencial criativo e talento artístico.",
+autor: "Eiichiro Oda",
+data: "1992",
+imagem: "img/wanted.jpg"
+},
+{
+id: 3,
+titulo: "Romance Dawn",
+descricao: "Versão inicial que deu origem a One Piece.",
+conteudo: "Romance Dawn foi a primeira versão da história de Luffy, apresentada em forma de one-shot, e serviu como protótipo para One Piece.",
+autor: "Eiichiro Oda",
+data: "1996",
+imagem: "img/romancedawn.jpg"
+}
+];
+
