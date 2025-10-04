@@ -28,33 +28,27 @@ Leia o enunciado completo no Canvas.
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
 ```javascript
-const dados = [
+const obras = [
 {
 id: 1,
 titulo: "One Piece",
-descricao: "Mangá iniciado em 1997 e ainda em publicação, com mais de 100 volumes lançados.",
-conteudo: "One Piece acompanha as aventuras de Monkey D. Luffy e sua tripulação em busca do lendário tesouro One Piece. É uma das obras mais vendidas e influentes do mundo.",
-autor: "Eiichiro Oda",
-data: "1997",
-imagem: "img/onepiece.jpg"
+descricao: "A maior obra de Eiichiro Oda, acompanha as aventuras de Monkey D. Luffy em busca do tesouro One Piece.",
+imagem: "onepiece.jpg",
+detalhes: "One Piece é um mangá publicado desde 1997 e ainda em andamento, sendo o mais vendido da história."
 },
 {
 id: 2,
 titulo: "Wanted!",
-descricao: "Coletânea de histórias curtas publicadas antes do sucesso de One Piece.",
-conteudo: "Wanted! é uma coletânea de mangás curtos de Oda, lançada antes de One Piece, que mostrava seu potencial criativo e talento artístico.",
-autor: "Eiichiro Oda",
-data: "1992",
-imagem: "img/wanted.jpg"
+descricao: "Uma coletânea de one-shots criados por Oda antes de iniciar One Piece.",
+imagem: "wanted.jpg",
+detalhes: "Wanted! reúne histórias curtas que ajudaram a moldar o estilo narrativo de Oda."
 },
 {
 id: 3,
 titulo: "Romance Dawn",
-descricao: "Versão inicial que deu origem a One Piece.",
-conteudo: "Romance Dawn foi a primeira versão da história de Luffy, apresentada em forma de one-shot, e serviu como protótipo para One Piece.",
-autor: "Eiichiro Oda",
-data: "1996",
-imagem: "img/romancedawn.jpg"
+descricao: "História que serviu como base para o que viria a ser One Piece.",
+imagem: "romance-dawn.jpg",
+detalhes: "Romance Dawn apresenta uma versão inicial de Luffy e sua jornada como pirata."
 }
 ];
 
