@@ -19,11 +19,11 @@ Leia o enunciado completo no Canvas.
 
 ## Print da Home-Page
 
-![Captura de tela da página inicial](homepage.png)
+![Captura de tela da página inicial](./public/homepage.png)
 
 ## Print da página de detalhes do item
 
-![Captura de tela da página de detalhes](Detalhes.png)
+![Captura de tela da página de detalhes](./public/Detalhes.png)
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
