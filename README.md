@@ -28,27 +28,64 @@ Leia o enunciado completo no Canvas.
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
 ```javascript
-const obras = [
-{
-id: 1,
-titulo: "One Piece",
-descricao: "A maior obra de Eiichiro Oda, acompanha as aventuras de Monkey D. Luffy em busca do tesouro One Piece.",
-imagem: "onepiece.jpg",
-detalhes: "One Piece é um mangá publicado desde 1997 e ainda em andamento, sendo o mais vendido da história."
-},
-{
-id: 2,
-titulo: "Wanted!",
-descricao: "Uma coletânea de one-shots criados por Oda antes de iniciar One Piece.",
-imagem: "wanted.jpg",
-detalhes: "Wanted! reúne histórias curtas que ajudaram a moldar o estilo narrativo de Oda."
-},
-{
-id: 3,
-titulo: "Romance Dawn",
-descricao: "História que serviu como base para o que viria a ser One Piece.",
-imagem: "romance-dawn.jpg",
-detalhes: "Romance Dawn apresenta uma versão inicial de Luffy e sua jornada como pirata."
-}
+const dados = [
+    {
+        id: 1,
+        titulo: "One Piece",
+        descricao: "A obra mais famosa de Eiichiro Oda.",
+        conteudo: "One Piece conta a jornada de Monkey D. Luffy em busca do maior tesouro do mundo.",
+        ano: 1997,
+        imagem: "https://upload.wikimedia.org/wikipedia/pt/2/25/One_Piece_-_Volume_1.jpg", 
+        curiosidades: [
+            "É o mangá com o maior número de cópias publicadas de um único autor no mundo.",
+            "O nome original de 'Gum-Gum Fruit' era 'Gomu Gomu no Mi'."
+        ]
+    },
+    {
+        id: 2,
+        titulo: "Wanted!",
+        descricao: "Coleção de histórias curtas antes de One Piece.",
+        conteudo: "Um conjunto de one-shots que ajudaram Oda a se destacar como mangaká.",
+        ano: 1992,
+        imagem: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388147230i/202613.jpg",
+        curiosidades: [
+            "A coleção Wanted! foi a estreia oficial de Oda como mangaká.",
+            "Contém a história de 'Monsters' (que ganhou um especial de anime em 2024)."
+        ]
+    },
+    {
+        id: 3,
+        titulo: "Romance Dawn",
+        descricao: "Versão inicial do que se tornaria One Piece.",
+        conteudo: "Primeira aparição de Luffy, publicada antes da serialização oficial.",
+        ano: 1996,
+        imagem: "https://m.media-amazon.com/images/I/41-99y6V8DL.jpg",
+        curiosidades: [
+            "Existem duas versões de 'Romance Dawn'.",
+            "Foi um piloto que se tornou a base para o início de One Piece."
+        ]
+    },
+    {
+        id: 4,
+        titulo: "Monsters",
+        descricao: "História curta de samurai e dragões.",
+        conteudo: "Uma das obras que mostraram a habilidade de Oda em criar mundos fantásticos.",
+        ano: 1994,        imagem: "https://upload.wikimedia.org/wikipedia/pt/e/e0/Monsters_-_Capa.jpg",
+        curiosidades: [
+            "O protagonista, Ryuma, aparece mais tarde em One Piece.",
+            "Foi uma das histórias que rendeu a Oda o prêmio Tezuka."
+        ]
+    },
+    {
+        id: 5,
+        titulo: "Cross Epoch",
+        descricao: "Crossover de One Piece e Dragon Ball.",
+        conteudo: "Parceria com Akira Toriyama, lançada em 2006.",
+        ano: 2006,
+        imagem: "https://i.ebayimg.com/images/g/Y8EAAOSw44BiqH69/s-l1600.jpg",
+        curiosidades: [
+            "É uma história de apenas 19 páginas.",
+            "O crossover foi publicado na revista 'Shonen Jump'."
+        ]
+    }
 ];
-

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
@@ -8,6 +9,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
   <header class="bg-dark text-white text-center py-3">
     <h1>Obras de Eiichiro Oda</h1>
     <nav>
@@ -15,40 +17,35 @@
     </nav>
   </header>
 
-  <section class="bg-warning text-dark text-center p-5">
-    <h2>“Sonhos não morrem!”</h2>
-    <p>Conheça as principais obras do lendário mangaká Eiichiro Oda, criador de One Piece.</p>
+  <section class="hero bg-warning text-dark text-center p-5">
+    <h2>Bem-vindo ao mundo de Eiichiro Oda</h2>
+    <p>Explore suas obras, histórias e curiosidades.</p>
+    <img src="https://picsum.photos/900/250?random=1" alt="Banner Oda" class="img-fluid rounded shadow">
   </section>
 
-  <section class="container my-5">
-    <h2 class="mb-4">Sobre Eiichiro Oda</h2>
-    <div class="row align-items-center">
-      <div class="col-md-4 text-center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Eiichiro_Oda_signature.svg/512px-Eiichiro_Oda_signature.svg.png" alt="Eiichiro Oda" class="img-fluid rounded shadow">
-      </div>
-      <div class="col-md-8">
-        <p>
-          Eiichiro Oda é um mangaká japonês, mundialmente conhecido por ser o criador de <strong>One Piece</strong>, 
-          uma das séries mais populares e vendidas de todos os tempos. 
-        </p>
-        <p>
-          Desde jovem, Oda mostrou talento para desenhar e, ao longo da carreira, criou obras que inspiraram 
-          milhões de fãs ao redor do mundo. 
-        </p>
-      </div>
-    </div>
+  <section class="container my-4">
+    <form class="d-flex justify-content-center">
+      <input type="text" class="form-control w-50 me-2" placeholder="Pesquisar obra...">
+      <button type="submit" class="btn btn-dark">Buscar</button>
+    </form>
   </section>
 
   <main class="container my-5">
-    <h2 class="mb-4">Lista de Obras</h2>
+    <h2 class="mb-4 text-center">Lista de Obras</h2>
     <div id="lista-obras" class="row g-4">
     </div>
   </main>
 
-  <footer class="bg-dark text-white text-center py-3 mt-5">
+  <footer class="bg-dark text-white text-center py-4 mt-5">
     <p>© 2025 - Página criada por William | Projeto acadêmico</p>
+    <p>
+      <a href="#" class="text-warning">Contato</a> | 
+      <a href="#" class="text-warning">Sobre</a> | 
+      <a href="#" class="text-warning">Redes Sociais</a>
+    </p>
   </footer>
 
   <script src="app.js"></script>
+
 </body>
 </html>
